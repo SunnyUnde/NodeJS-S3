@@ -1,0 +1,50 @@
+{
+  "admin": {
+    "permissions": {
+      "buckets": {
+        "create": true,
+        "read": true,
+        "write": true,
+        "delete": true
+      },
+      "objects": {
+        "read": true,
+        "write": true,
+        "delete": true
+      }
+    },
+    "priority": 3
+  },
+  "manager": {
+    "permissions": {
+      "buckets": {
+        "create": true,
+        "read": true,
+        "write": true,
+        "delete": false
+      },
+      "objects": {
+        "read": true,
+        "write": true,
+        "delete": false
+      }
+    },
+    "priority": 2
+  },
+  "user": {
+    "permissions": {
+      "buckets": {
+        "create": false,
+        "read": true,
+        "write": false,
+        "delete": false
+      },
+      "objects": {
+        "read": true,
+        "write": false,
+        "delete": false
+      }
+    },
+    "priority": 1
+  }
+}

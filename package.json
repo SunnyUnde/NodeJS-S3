@@ -1,0 +1,27 @@
+{
+  "name": "aws-s3",
+  "version": "1.0.0",
+  "description": "Node JS project with similar funcnalities of AWS S3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Sunny Unde",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mime": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

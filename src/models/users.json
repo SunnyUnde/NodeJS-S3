@@ -1,0 +1,32 @@
+[
+  {
+    "username": "user1",
+    "password": "user1",
+    "organization": "company1",
+    "permissions": {
+      "bucket1": "admin",
+      "bucket2": "admin",
+      "my-bucket": {
+        "my-object.jpg": "admin"
+      }
+    },
+    "role": "admin"
+  },
+  {
+    "username": "user2",
+    "password": "user2",
+    "organization": "company1",
+    "permissions": {
+      "my-bucket": {
+        "my-object.jpg": "user"
+      }
+    },
+    "role": "manager"
+  },
+  {
+    "username": "user3",
+    "password": "user3",
+    "role": "user",
+    "organization": "company2"
+  }
+]
